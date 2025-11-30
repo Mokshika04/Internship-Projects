@@ -14,7 +14,8 @@ best_neighborhood_sales = (
     df.groupby("Neighborhood")["SalePrice"].sum().max()
 )
 
-# Basic Report:eport = f"""
+# Basic Report:
+report = f"""
 Ames Housing Sales Report
 ------------------------
 Number of sales: {len(df)}
